@@ -59,7 +59,7 @@ if url:
            
 
                 # Insert your Gemini API key here
-                GOOGLE_API_KEY = "AIzaSyDmFz19XZb3j79nx51r8U3zw8fKMjiGtqk"
+                GOOGLE_API_KEY = "AIzaSyAmRDBSBhsYndKr9jjc8IFcQWg-5g4D4fg"
 
                 # Set up Google Gemini-Pro AI model
                 gen_ai.configure(api_key=GOOGLE_API_KEY)
