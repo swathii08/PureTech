@@ -93,7 +93,7 @@ if url:
                 st.error("Unable to extract product information. Please check the URL and try again.")
 
         except Exception as e:
-            st.error(f"An error occurred:  please retry")
+            st.error(f"An error occurred:  {e}")
 
     else:
         st.error("Invalid URL. Please enter a valid product URL.")
